@@ -23,7 +23,7 @@ const PreviewPage = () => {
                         {profileInfo?.first_name ?
                             <span className="font-bold text-3xl text-center">{`${profileInfo?.first_name} ${profileInfo?.last_name}`}</span>
                             :
-                            <div className="w-1/2 h-4 rounded-full bg-gray-100 mt-2"></div>
+                            <div className="w-56 h-4 rounded-full bg-gray-100 mt-2"></div>
                         }
                         {profileInfo?.email ?
                             <span className="font-normal text-sm text-center text-[#888]">{profileInfo?.email}</span>
