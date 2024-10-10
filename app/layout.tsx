@@ -1,9 +1,6 @@
 import type { Metadata } from "next";
 import localFont from "next/font/local";
 import "./globals.css";
-import Topbar from "@/components/Topbar";
-import { TabGroup } from "@headlessui/react";
-import { useState } from "react";
 import { Toaster } from "react-hot-toast";
 import { LinksProvider } from "@/context/linksContext";
 

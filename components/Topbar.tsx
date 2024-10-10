@@ -1,5 +1,5 @@
 'use client'
-import { Tab, TabGroup, TabList, TabPanel, TabPanels } from "@headlessui/react";
+import { Tab, TabList } from "@headlessui/react";
 import { CgProfile } from "react-icons/cg";
 import { RiLinksFill } from "react-icons/ri";
 import Button from "./Button";

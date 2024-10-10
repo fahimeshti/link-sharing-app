@@ -5,7 +5,7 @@ import Button from "../Button";
 import { Controller } from "react-hook-form";
 import CustomSelect from "../CustomSelect";
 import FormMessage from "../atoms/FormMessage";
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import { getValidationFunction } from "@/utils/helpers";
 
 const LinksCard = ({ control, index, remove, errors, defaultPlatform }: any) => {

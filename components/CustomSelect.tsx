@@ -23,7 +23,9 @@ export default function CustomSelect({ onChange, label, defaultValue }: any) {
                 value={selected}
                 onChange={(v) => {
                     setSelected(v);
-                    !!onChange && onChange(v);
+                    if (onChange) {
+                        onChange(v);
+                    }
                 }}
             >
                 <ListboxButton

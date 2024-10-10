@@ -3,8 +3,7 @@ import { useLinks } from "@/context/linksContext";
 import { FaArrowRight, FaGithub, FaLinkedin, FaYoutube } from "react-icons/fa";
 
 const LinksList = () => {
-    const { getLinkByPlatform,links } = useLinks();
-    // window.alert(JSON.stringify(links))
+    const { getLinkByPlatform } = useLinks();
 
     return (
         <ul className="flex flex-col items-center gap-4 mt-10 md:mt-16 w-full max-w-[270px]">

@@ -1,5 +1,5 @@
 import { forwardRef, ReactNode } from 'react';
-import { Description, Field, Input, Label } from '@headlessui/react';
+import { Field, Input, Label } from '@headlessui/react';
 import clsx from 'clsx';
 
 type Props = {
@@ -38,5 +38,7 @@ const InputField = forwardRef<HTMLInputElement, Props>(
         );
     }
 );
+
+InputField.displayName = 'InputField';
 
 export default InputField;
