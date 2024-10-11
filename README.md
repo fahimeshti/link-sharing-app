@@ -35,7 +35,7 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 
 ## Deployed on Vercel
 
-The project is deployed on Vercel. You can check out the live site here: [Live Link](https://link-sharing-app-gules.vercel.app) for more details.
+The project is deployed on Vercel. You can check out the live site here: [Live Link](https://link-sharing-app-fahimeshti.vercel.app/) for more details.
 
 ## Technologies Used
 Next.js - Frontend framework
